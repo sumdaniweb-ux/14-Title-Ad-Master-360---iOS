@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ur" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GMD Spark - Ad Master 360 | iOS 14 + WhatsApp + Shopify Solution</title>
     
-    <!-- ✅ ✅ ✅ Open Graph Meta Tags (WhatsApp/Facebook Preview) ✅ ✅ ✅ -->
+    <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Ad Master 360 - iOS 14 کا مکمل حل | صرف 1,500 PKR/ماہ">
     <meta property="og:description" content="6 Premium Tools = 1,500 PKR ماہانہ | iOS 14+ Conversion Engine, WhatsApp Commerce, Shopify Tracking | 99% بچت! حلال گارنٹی">
     <meta property="og:image" content="https://i.supaimg.com/87108d27-3be2-4cce-813e-5651872c8133/8552f879-ca1c-4921-af1a-c0455515e81e.png">
@@ -26,489 +26,383 @@
     <meta name="author" content="GMD Spark Commerce">
     
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, sans-serif; }
+        
         body { 
             background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%); 
-            color: #fff; 
+            color: #e0e0e0; 
             min-height: 100vh; 
-            display: flex; 
-            justify-content: center; 
-            align-items: center; 
-            padding: 20px;
+            padding: 15px;
             animation: bgPulse 8s infinite;
         }
         @keyframes bgPulse { 0%,100%{background-position:0% 50%;} 50%{background-position:100% 50%;} }
         
         .container { 
-            max-width: 480px; 
+            max-width: 500px; 
             width: 100%; 
+            margin: 0 auto;
             background: #000; 
-            border-radius: 24px; 
+            border-radius: 20px; 
             overflow: hidden; 
             border: 3px solid #FF8C00; 
-            animation: borderGlow 3s infinite; 
-            box-shadow: 0 0 30px rgba(255,140,0,0.3);        }
-        @keyframes borderGlow { 0%,100%{border-color:#FF8C00; box-shadow:0 0 30px rgba(255,140,0,0.3);} 50%{border-color:#FFD700; box-shadow:0 0 40px rgba(255,215,0,0.5);} }
+            animation: borderGlow 3s infinite;
+        }
+        @keyframes borderGlow {            0%,100%{border-color:#FF8C00; box-shadow:0 0 20px rgba(255,140,0,0.3);}
+            50%{border-color:#FFD700; box-shadow:0 0 30px rgba(255,215,0,0.4);}
+        }
         
         .header { 
             background: #000; 
-            padding: 20px; 
+            padding: 20px 15px; 
             text-align: center; 
             border-bottom: 2px solid #FF8C00; 
             animation: borderBottomGlow 3s infinite;
         }
-        @keyframes borderBottomGlow { 0%,100%{border-bottom-color:#FF8C00;} 50%{border-bottom-color:#FFD700;} }
+        @keyframes borderBottomGlow {
+            0%,100%{border-bottom-color:#FF8C00;}
+            50%{border-bottom-color:#FFD700;}
+        }
         
         .logo { 
             width: 100px; 
             height: 100px; 
             object-fit: contain; 
-            border-radius: 16px; 
+            border-radius: 12px; 
             background: #fff; 
-            padding: 8px; 
+            padding: 6px; 
             border: 3px solid #FFD700; 
-            animation: logoSpin 10s infinite linear;
-            margin: 0 auto 12px;
+            margin: 0 auto 10px;
             display: block;
+            animation: logoSpin 10s infinite linear;
         }
-        @keyframes logoSpin { 0%{transform:rotate(0deg);} 25%{transform:rotate(5deg);} 75%{transform:rotate(-5deg);} 100%{transform:rotate(0deg);} }
+        @keyframes logoSpin {
+            0%{transform:rotate(0deg);}
+            25%{transform:rotate(5deg);}
+            75%{transform:rotate(-5deg);}
+            100%{transform:rotate(0deg);}
+        }
         
         .brand { 
-            font-size: 18px; 
+            font-size: 20px; 
             font-weight: 900; 
             text-transform: uppercase; 
-            background: linear-gradient(90deg, #FF8C00, #FFD700, #fff); 
-            -webkit-background-clip: text; 
-            -webkit-text-fill-color: transparent; 
-            animation: textShine 3s infinite;
-        }
-        @keyframes textShine { 0%,100%{opacity:1;} 50%{opacity:0.8; text-shadow:0 0 15px #FFD700;} }
-        
-        .hero { 
-            padding: 24px 20px; 
-            text-align: center; 
-            background: linear-gradient(135deg, rgba(255,140,0,0.1), rgba(255,215,0,0.05));
-        }
-        
-        .hero-title { 
-            font-size: 22px; 
-            font-weight: 800; 
-            margin-bottom: 12px; 
-            color: #fff;
-        }
-                .hero-subtitle { 
-            font-size: 14px; 
-            color: #FF8C00; 
-            font-weight: 700; 
-            margin-bottom: 20px;
-        }
-        
-        .ios14-badge { 
-            display: inline-flex; 
-            align-items: center; 
-            gap: 10px;
-            background: linear-gradient(135deg, #FF0050, #FF8C00); 
-            color: #fff; 
-            padding: 16px 24px; 
-            border-radius: 16px; 
-            font-size: 18px; 
-            font-weight: 900; 
-            margin: 12px 4px;
-            border: 3px solid #FFD700;
-            box-shadow: 0 4px 15px rgba(255,0,80,0.4);
-            animation: badgePulse 2s infinite;
-        }
-        @keyframes badgePulse { 0%,100%{transform:scale(1);} 50%{transform:scale(1.05);} }
-        .ios14-badge .icon { font-size: 28px; }
-        
-        .feature-badges { 
-            display: flex; 
-            flex-wrap: wrap; 
-            justify-content: center; 
-            gap: 8px; 
-            margin-top: 16px;
-        }
-        .feature-badge { 
-            display: inline-block; 
-            background: linear-gradient(135deg, #FF8C00, #FFD700); 
-            color: #000; 
-            padding: 6px 14px; 
-            border-radius: 20px; 
-            font-size: 12px; 
-            font-weight: 800;
-        }
-        
-        .price-card { 
-            background: #1a1a1a; 
-            border-radius: 16px; 
-            padding: 20px; 
-            margin: 16px 20px; 
-            border: 2px solid #FF8C00; 
-            animation: cardGlow 3s infinite;
-        }        @keyframes cardGlow { 0%,100%{border-color:#FF8C00;} 50%{border-color:#FFD700;} }
-        
-        .price-title { 
-            font-size: 16px; 
-            font-weight: 800; 
-            color: #FFD700; 
-            margin-bottom: 12px;
-        }
-        
-        .price-list { 
-            text-align: left; 
-            font-size: 13px; 
-            line-height: 1.8; 
-            color: #fff;
-        }
-        .price-list li { margin-bottom: 6px; }
-        .price-list .highlight { color: #FFD700; font-weight: 700; }
-        
-        .comparison { 
-            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%); 
-            border-radius: 20px; 
-            padding: 24px; 
-            margin: 20px; 
-            border: 3px solid transparent;
-            border-image: linear-gradient(135deg, #FF8C00, #FFD700, #FF8C00) 1;
-            animation: comparisonFloat 3s ease-in-out infinite, borderRotate 4s linear infinite;
-            position: relative;
-            overflow: hidden;
-        }
-        .comparison::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background: linear-gradient(45deg, transparent, rgba(255,140,0,0.1), transparent);
-            animation: shine 3s infinite;
-        }
-        @keyframes comparisonFloat { 0%,100%{transform:translateY(0);} 50%{transform:translateY(-5px);} }
-        @keyframes borderRotate { 0%{border-image-source: linear-gradient(135deg, #FF8C00, #FFD700, #FF8C00);} 50%{border-image-source: linear-gradient(135deg, #FFD700, #FF8C00, #FFD700);} 100%{border-image-source: linear-gradient(135deg, #FF8C00, #FFD700, #FF8C00);} }
-        @keyframes shine { 0%{transform:translateX(-100%) rotate(45deg);} 100%{transform:translateX(100%) rotate(45deg);} }
-        
-        .comparison-title { 
-            font-size: 16px; 
-            font-weight: 900; 
             background: linear-gradient(90deg, #FF8C00, #FFD700);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            margin-bottom: 20px;            text-align: center;
-            animation: titleGlow 2s infinite;
-            position: relative;
-            z-index: 1;
+            animation: textShine 3s infinite;
         }
-        @keyframes titleGlow { 0%,100%{text-shadow:0 0 10px rgba(255,140,0,0.5);} 50%{text-shadow:0 0 20px rgba(255,215,0,0.8);} }
+        @keyframes textShine {
+            0%,100%{opacity:1;}
+            50%{opacity:0.85; text-shadow:0 0 10px #FFD700;}
+        }
         
-        .comparison-grid { 
-            display: grid; 
-            grid-template-columns: 1fr 1fr; 
-            gap: 16px; 
-            font-size: 13px;
-            position: relative;
-            z-index: 1;
-        }
-        .comparison-item { 
-            text-align: center; 
-            padding: 16px;
-            border-radius: 12px;
-            background: rgba(0,0,0,0.5);
-            border: 2px solid #333;
-            animation: itemPulse 2s infinite;
-        }
-        .comparison-item:first-child { animation-delay: 0s; border-color: #FF0050; }
-        .comparison-item:last-child { animation-delay: 0.5s; border-color: #00F2EA; }
-        @keyframes itemPulse { 0%,100%{transform:scale(1);} 50%{transform:scale(1.02);} }
-        
-        .comparison-label { 
-            color: #ccc; 
-            margin-bottom: 8px; 
-            font-weight: 600;
-            font-size: 12px;
-        }
-        .comparison-value { 
-            font-weight: 900; 
-            font-size: 16px;
-            animation: numberPulse 1.5s infinite;
-        }
-        @keyframes numberPulse { 0%,100%{opacity:1;} 50%{opacity:0.8;} }
-        .comparison-value.market { 
-            color: #FF0050; 
-            text-shadow: 0 0 10px rgba(255,0,80,0.5);
-        }
-        .comparison-value.ours { 
-            color: #00F2EA; 
-            text-shadow: 0 0 10px rgba(0,242,234,0.5);
-        }
-        .comparison-value .save { 
-            display: block; 
-            font-size: 11px;             margin-top: 4px; 
-            color: #FFD700;
-            animation: saveBlink 1s infinite;
-        }
-        @keyframes saveBlink { 0%,100%{opacity:1;} 50%{opacity:0.6;} }
-        
-        .guarantee { 
-            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0a0a0a 100%); 
-            color: #FFD700; 
-            padding: 32px; 
-            margin: 20px; 
-            border-radius: 24px; 
-            font-weight: 700; 
-            text-align: center; 
-            font-size: 15px;
-            border: 3px solid #FF8C00;
-            box-shadow: 0 0 40px rgba(255,140,0,0.5), inset 0 0 30px rgba(255,215,0,0.1);
-            animation: guaranteeFloat 3s ease-in-out infinite, guaranteeGlow 4s linear infinite;
-            position: relative;
-            overflow: hidden;
-        }
-        .guarantee::before {
-            content: '🛡️';
-            position: absolute;
-            top: 15px;
-            left: 15px;
-            font-size: 35px;
-            animation: shieldFloat 3s ease-in-out infinite;
-            filter: drop-shadow(0 0 10px #FFD700);
-        }
-        .guarantee::after {
-            content: '🛡️';
-            position: absolute;
-            top: 15px;
-            right: 15px;
-            font-size: 35px;
-            animation: shieldFloat 3s ease-in-out infinite reverse;
-            filter: drop-shadow(0 0 10px #FFD700);
-        }
-        @keyframes guaranteeFloat { 0%,100%{transform:translateY(0) scale(1);} 50%{transform:translateY(-10px) scale(1.02);} }
-        @keyframes guaranteeGlow { 0%{border-color:#FF8C00; box-shadow:0 0 40px rgba(255,140,0,0.5), inset 0 0 30px rgba(255,215,0,0.1);} 50%{border-color:#FFD700; box-shadow:0 0 60px rgba(255,215,0,0.7), inset 0 0 40px rgba(255,215,0,0.2);} 100%{border-color:#FF8C00; box-shadow:0 0 40px rgba(255,140,0,0.5), inset 0 0 30px rgba(255,215,0,0.1);} }
-        @keyframes shieldFloat { 0%,100%{transform:translateY(0) rotate(0deg);} 50%{transform:translateY(-5px) rotate(10deg);} }
-        
-        .guarantee strong { 
-            display: block; 
-            margin-bottom: 16px; 
-            font-size: 20px; 
-            background: linear-gradient(90deg, #FF8C00, #FFD700, #FF8C00);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;            animation: titleShine 2s infinite;
-            position: relative;
-            z-index: 1;
-            letter-spacing: 1px;
-        }
-        @keyframes titleShine { 0%,100%{filter:brightness(1);} 50%{filter:brightness(1.3);} }
-        
-        .guarantee .guarantee-text {
-            position: relative;
-            z-index: 1;
-            line-height: 2;
-            color: #FFFFFF;
-            font-size: 14px;
-            animation: textPulse 3s infinite;
-        }
-        @keyframes textPulse { 0%,100%{opacity:1;} 50%{opacity:0.9;} }
-        
-        .guarantee .highlight-text {
-            color: #FFD700;
-            font-weight: 900;
-            animation: highlightPulse 1.5s infinite;
-        }
-        @keyframes highlightPulse { 0%,100%{text-shadow:0 0 10px #FFD700;} 50%{text-shadow:0 0 20px #FF8C00;} }
-        
-        .payment-methods { 
+        .main-section { padding: 20px 15px; }        
+        .status-card { 
             background: #0a0a0a; 
             border-radius: 12px; 
-            padding: 16px; 
-            margin: 16px 20px; 
-            border: 2px solid #1877F2;
+            padding: 15px; 
+            margin-bottom: 15px; 
+            border: 2px solid #FF8C00; 
+            animation: cardGlow 3s infinite;
         }
-        .payment-title { 
-            font-size: 14px; 
+        @keyframes cardGlow {
+            0%,100%{border-color:#FF8C00;}
+            50%{border-color:#FFD700;}
+        }
+        
+        .status-title { 
+            font-size: 16px; 
             font-weight: 800; 
             color: #FFD700; 
             margin-bottom: 12px; 
-            text-align: center;
-        }
-        .payment-grid { 
-            display: grid; 
-            grid-template-columns: repeat(3, 1fr); 
-            gap: 10px;
-        }
-        .payment-item { 
-            background: #1a1a1a; 
-            border-radius: 8px; 
-            padding: 12px 8px; 
             text-align: center; 
-            border: 2px solid #333;
-            transition: 0.3s;        }
-        .payment-item:hover { 
-            border-color: #FF8C00; 
-            transform: translateY(-2px);
+            animation: titleGlow 2s infinite;
         }
-        .payment-icon { font-size: 28px; margin-bottom: 6px; }
-        .payment-name { font-size: 11px; font-weight: 700; color: #FFD700; }
-        
-        .cta-section { 
-            padding: 20px; 
-            text-align: center; 
-            background: #000;
+        @keyframes titleGlow {
+            0%,100%{text-shadow:0 0 8px rgba(255,215,0,0.4);}
+            50%{text-shadow:0 0 15px rgba(255,215,0,0.7);}
         }
         
-        .buy-btn { 
-            background: linear-gradient(135deg, #FF8C00, #FFD700); 
-            color: #000; 
-            border: none; 
-            padding: 16px 32px; 
-            border-radius: 28px; 
+        .status-indicator { 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            gap: 8px; 
+            padding: 12px; 
+            background: rgba(0,200,83,0.1); 
+            border-radius: 10px; 
+            border: 2px solid #00E676; 
+            margin-bottom: 12px;
+            animation: indicatorPulse 2s infinite;
+        }
+        @keyframes indicatorPulse {
+            0%,100%{box-shadow:0 0 10px rgba(0,230,118,0.3);}
+            50%{box-shadow:0 0 20px rgba(0,230,118,0.5);}
+        }
+        
+        .status-dot { 
+            width: 10px; 
+            height: 10px; 
+            background: #00E676; 
+            border-radius: 50%; 
+            animation: dotPulse 1.5s infinite;        }
+        @keyframes dotPulse {
+            0%,100%{opacity:1; transform:scale(1);}
+            50%{opacity:0.6; transform:scale(1.2);}
+        }
+        
+        .status-text { 
+            color: #00E676; 
+            font-weight: 700; 
+            font-size: 14px; 
+            text-shadow: 0 0 8px rgba(0,230,118,0.4);
+        }
+        
+        .info-list { list-style: none; text-align: right; }
+        .info-list li { 
+            padding: 8px 0; 
+            border-bottom: 1px solid #1a1a1a; 
+            color: #c0c0c0; 
+            font-size: 13px; 
+            animation: listItemFade 0.5s ease-in;
+        }
+        .info-list li:nth-child(1){animation-delay:0.1s;}
+        .info-list li:nth-child(2){animation-delay:0.2s;}
+        .info-list li:nth-child(3){animation-delay:0.3s;}
+        .info-list li:nth-child(4){animation-delay:0.4s;}
+        .info-list li:last-child { border-bottom: none; }
+        .info-list .label { color: #FF8C00; font-weight: 700; }
+        @keyframes listItemFade {
+            from{opacity:0; transform:translateX(10px);}
+            to{opacity:1; transform:translateX(0);}
+        }
+        
+        /* ✅ گہرا سبز بٹن + سفید ٹیکسٹ */
+        .test-btn { 
+            background: linear-gradient(135deg, #1B5E20, #2E7D32); 
+            color: #FFFFFF; 
+            border: 2px solid #4CAF50; 
+            padding: 16px 30px; 
+            border-radius: 25px; 
             font-size: 18px; 
             font-weight: 900; 
             cursor: pointer; 
             width: 100%; 
-            max-width: 300px;
+            margin: 12px 0; 
             animation: btnPulse 2s infinite;
-            transition: 0.3s;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.4);
+            box-shadow: 0 4px 15px rgba(76,175,80,0.4), inset 0 2px 4px rgba(255,255,255,0.2);
         }
-        .buy-btn:hover { transform: scale(1.03); box-shadow: 0 0 20px #FFD700; }
-        @keyframes btnPulse { 0%,100%{opacity:1;} 50%{opacity:0.85;} }
-        
-        .buy-note {
-            margin-top: 12px; 
-            font-size: 12px; 
-            color: #FFFFFF;
-            font-weight: 600;
-            line-height: 1.6;
+        @keyframes btnPulse {
+            0%,100%{                transform:scale(1); 
+                box-shadow:0 4px 15px rgba(76,175,80,0.4), inset 0 2px 4px rgba(255,255,255,0.2);
+            }
+            50%{
+                transform:scale(1.03); 
+                box-shadow:0 6px 25px rgba(76,175,80,0.6), inset 0 2px 4px rgba(255,255,255,0.3);
+            }
         }
-        .buy-note span { color: #FF8C00; }
+        .test-btn:active { transform: scale(0.98); }
         
-        .signin-section { 
-            margin: 16px 20px; 
+        .result-box { 
+            background: #0a0a0a; 
+            border-radius: 10px; 
             padding: 12px; 
+            margin-top: 12px; 
+            border: 2px solid #00E676; 
+            display: none; 
+            animation: resultFade 0.4s ease-out;
+        }
+        .result-box.show { display: block; }
+        @keyframes resultFade {
+            from{opacity:0; transform:translateY(10px);}
+            to{opacity:1; transform:translateY(0);}
+        }
+        .result-title { color: #00E676; font-weight: 800; margin-bottom: 8px; animation: titleGlow 2s infinite; }
+        .result-data { color: #d0d0d0; font-size: 12px; line-height: 1.6; }
+        
+        .next-step-card { 
             background: #0a0a0a; 
             border-radius: 12px; 
-            border: 2px solid #1877F2;
-            display: flex; 
-            align-items: center; 
-            gap: 10px;
-        }        .google-btn { 
-            background: #fff; 
-            border: none; 
-            border-radius: 20px; 
-            padding: 10px 18px; 
-            display: flex; 
-            align-items: center; 
-            gap: 8px; 
-            cursor: pointer; 
-            font-weight: 600; 
-            color: #444;
-        }
-        .google-btn img { width: 20px; height: 20px; }
-        .user-status { 
-            color: #ccc; 
-            font-size: 12px; 
-            flex: 1; 
-            text-align: right;
+            padding: 15px; 
+            margin-top: 15px; 
+            border: 2px solid #42A5F5; 
+            animation: cardGlow 3s infinite;
         }
         
         .footer { 
             background: #000; 
-            padding: 20px; 
+            padding: 20px 15px; 
             text-align: center; 
-            font-size: 13px; 
-            color: #FFFFFF; 
             border-top: 2px solid #FF8C00;
-            font-weight: 600;
+            animation: borderTopGlow 3s infinite;
         }
-        .footer a { color: #FFD700; text-decoration: none; font-weight: 700; }
-        .footer .halal-text { 
-            color: #FFFFFF; 
-            font-weight: 800;
-            margin-top: 8px;
-            display: block;
+        @keyframes borderTopGlow {
+            0%,100%{border-top-color:#FF8C00;}
+            50%{border-top-color:#FFD700;}
+        }
+        
+        /* اینیمیٹڈ کانٹیکٹ */
+        .contact-item {             margin: 10px 0; 
+            color: #FFD700; 
+            font-size: 15px; 
+            font-weight: 700;
+            animation: contactWave 3s ease-in-out infinite;
+            text-shadow: 0 0 10px rgba(255,215,0,0.5);
+        }
+        .contact-item:nth-child(1){animation-delay:0s;}
+        .contact-item:nth-child(2){animation-delay:0.5s;}
+        @keyframes contactWave {
+            0%,100%{
+                transform:translateY(0);
+                text-shadow:0 0 10px rgba(255,215,0,0.5);
+                opacity:1;
+            }
+            50%{
+                transform:translateY(-5px);
+                text-shadow:0 5px 20px rgba(255,215,0,0.8);
+                opacity:0.9;
+            }
+        }
+        .contact-item a { 
+            color: #FFD700; 
+            text-decoration: none; 
+            font-weight: 700;
+            animation: linkGlow 2s infinite;
+        }
+        @keyframes linkGlow {
+            0%,100%{filter:brightness(1);}
+            50%{filter:brightness(1.3);}
+        }
+        
+        .halal-text { 
+            color: #e0e0e0; 
+            font-weight: 800; 
+            margin-top: 15px; 
+            display: block; 
+            font-size: 12px; 
+            animation: halalPulse 4s infinite;
+        }
+        @keyframes halalPulse {
+            0%,100%{opacity:1;}
+            50%{opacity:0.85;}
         }
         
         .toast { 
             position: fixed; 
-            bottom: 20px; 
+            bottom: 15px; 
             left: 50%; 
-            transform: translateX(-50%); 
-            background: #1a1a1a; 
-            border: 2px solid #FF8C00; 
-            color: #fff; 
-            padding: 12px 24px; 
-            border-radius: 10px; 
+            transform: translateX(-50%);             background: #0a0a0a; 
+            border: 2px solid #00E676; 
+            color: #e0e0e0; 
+            padding: 10px 20px; 
+            border-radius: 8px; 
             display: none; 
             z-index: 1000; 
-            font-size: 13px;        }
-        .toast.show { display: block; animation: toastFade 3s; }
-        @keyframes toastFade { 0%{opacity:0;} 10%{opacity:1;} 90%{opacity:1;} 100%{opacity:0;} }
+            font-size: 13px; 
+            animation: toastSlide 0.3s ease-out;
+        }
+        .toast.show { display: block; }
+        @keyframes toastSlide {
+            from{opacity:0; transform:translateX(-50%) translateY(20px);}
+            to{opacity:1; transform:translateX(-50%) translateY(0);}
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
             <img src="https://i.supaimg.com/87108d27-3be2-4cce-813e-5651872c8133/8552f879-ca1c-4921-af1a-c0455515e81e.png" class="logo" alt="GMD Spark">
-            <div class="brand">Ad Master 360</div>
+            <div class="brand">GMD Spark Commerce</div>
         </div>
         
-        <div class="hero">
-            <div class="hero-title">🔥 کیا آپ کی ایڈز "نظر" نہیں آ رہیں؟</div>
-            <div class="hero-subtitle">iOS 14 + WhatsApp + Shopify = مکمل حل</div>
-            
-            <div class="ios14-badge">
-                <span class="icon">📱</span>
-                <span>iOS 14+ Conversion Engine</span>
-            </div>
-            
-            <div class="feature-badges">
-                <span class="feature-badge">💬 WhatsApp Commerce</span>
-                <span class="feature-badge">🛍️ Shopify Engine</span>
-                <span class="feature-badge">🤖 AI Advisor</span>
-                <span class="feature-badge">📧 Email Marketing</span>
-                <span class="feature-badge">🎯 Lookalike Builder</span>
-            </div>
-        </div>
-        
-        <div class="price-card">
-            <div class="price-title">📢 واٹس ایپ چینل - 300 PKR/ماہ</div>
-            <ul class="price-list">
-                <li>✅ روزانہ Artificial Intelligence کی تازہ ترین اپڈیٹس (تمام AI ٹولز)</li>
-                <li>✅ روزانہ Dropshipping & Branding کی مکمل گائیڈنس</li>
-                <li>✅ ہفتہ وار 1 فری ٹول (جو باہر $50 کا ہے)</li>
-                <li>✅ iOS 14, WhatsApp Commerce کے حل</li>
-                <li>✅ براہ راست سوال جواب (ہفتے میں 1 بار)</li>
-                <li>✅ <span class="highlight">کوئی اسپیم نہیں • کوئی فیک پرومیز نہیں</span></li>
-                <li>✅ کسی بھی وقت کینسل کریں</li>
-            </ul>
-        </div>
-        
-        <div class="comparison">
-            <div class="comparison-title">💰 قیمت کا موازنہ (ماہانہ)</div>
-            <div class="comparison-grid">
-                <div class="comparison-item">
-                    <div class="comparison-label">🏪 مارکیٹ میں</div>
-                    <div class="comparison-value market">
-                        $541<br>                        1,51,600 PKR
-                    </div>
+        <div class="main-section">
+            <div class="status-card">
+                <div class="status-title">📊 iOS 14+ Tracker اسٹیٹس</div>
+                <div class="status-indicator">
+                    <div class="status-dot"></div>
+                    <div class="status-text">ٹریکر فعال ہے ✅</div>
                 </div>
-                <div class="comparison-item">
-                    <div class="comparison-label">🎯 ہماری قیمت</div>
-                    <div class="comparison-value ours">
-                        1,500 PKR<br>
-                        <span class="save">✨ 99% بچت!</span>
-                    </div>
-                </div>
+                <ul class="info-list">
+                    <li><span class="label">ورژن:</span> 2.0 (دن 2)</li>
+                    <li><span class="label">سرور:</span> Cloudflare Workers</li>
+                    <li><span class="label">پکسل اسٹیٹس:</span> <span id="pixelStatus">سیٹ اپ کریں ⚙️</span></li>
+                    <li><span class="label">آخری اپڈیٹ:</span> <span id="lastUpdate">-</span></li>
+                </ul>
+            </div>
+            
+            <button class="test-btn" onclick="testTracker()">🧪 ٹریکر ٹیسٹ کریں</button>
+            
+            <div class="result-box" id="resultBox">
+                <div class="result-title">📈 ٹیسٹ رزلٹ:</div>
+                <div class="result-data" id="resultData"></div>
+            </div>
+            
+            <div class="next-step-card">
+                <div class="status-title" style="color:#64B5F6">📋 اگلا مرحلہ (دن 3)</div>
+                <ul class="info-list">
+                    <li>✅ Ad Copy Generator ٹول</li>                    <li>✅ Budget Optimizer ٹول</li>
+                    <li>✅ Custom Audience Builder</li>
+                    <li>✅ فائنل ٹیسٹنگ + گائیڈ</li>
+                </ul>
             </div>
         </div>
         
-        <div class="guarantee">
-            <strong>🛡️ حلال انکم گارنٹی 🛡️</strong>
-            <div class="guarantee-text">
-                "اگر ہمارے ٹولز نے <span class="highlight-text">کام نہ کیا</span>،<br>
-                اسکرین شاٹ بھیجیں،<br>
-                ہم تسلی کریں گے،<br>
-                <span class="highlight-text">آپ کے پیسے واپس!</span>"
-            </div>
+        <div class="footer">
+            <div class="contact-item">📧 <a href="mailto:mateen.pk786@gmail.com">mateen.pk786@gmail.com</a></div>
+            <div class="contact-item">📱 <a href="tel:03007956507">0300 7956507</a></div>
+            <span class="halal-text">© 2026 GMD Spark • حلال کمائی • حلال خدمت • حلال رزق</span>
         </div>
+    </div>
+    
+    <div class="toast" id="toast"></div>
+    
+    <script>
+        // 🔗 اپنا Cloudflare Worker URL یہاں ڈالیں
+        const TRACKER_URL = 'https://YOUR-WORKER-URL.workers.dev';
         
-        <div class="payment-methods"
+        document.getElementById('lastUpdate').textContent = new Date().toLocaleString('ur-PK');
+        
+        function testTracker() {
+            const resultBox = document.getElementById('resultBox');
+            const resultData = document.getElementById('resultData');
+            const pixelStatus = document.getElementById('pixelStatus');
+            
+            resultBox.classList.add('show');
+            resultData.innerHTML = '⏳ ٹیسٹ چل رہا ہے...';
+            
+            if (TRACKER_URL.includes('YOUR-WORKER-URL')) {
+                resultData.innerHTML = '⚠️ <strong>نوٹ:</strong> پہلے اپنا Cloudflare Worker URL ڈالیں!<br><br>کوڈ میں یہ لائن تلاش کریں:<br><code>const TRACKER_URL = \'...\'</code><br><br>اور اپنا اصلی URL ڈالیں۔';
+                showToast('❌ پہلے Worker URL سیٹ کریں');
+                return;
+            }
+            
+            fetch(TRACKER_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    event: 'PageView',
+                    customData: { test: true, timestamp: new Date().toISOString() }
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                resultData.innerHTML = `✅ <strong>اسٹیٹس:</strong> کامیاب<br>📝 <strong>ایونٹ:</strong> ${data.event || 'PageView'}<br>🕐 <strong>ٹائم:</strong> ${new Date().toLocaleString('ur-PK')}`;
+                pixelStatus.textContent = 'کام کر رہا ہے ✅';
+                pixelStatus.style.color = '#00E676';
+                showToast('✅ ٹیسٹ کامیاب!');            })
+            .catch(error => {
+                resultData.innerHTML = `❌ <strong>اسٹیٹس:</strong> ناکام<br>📝 <strong>غلطی:</strong> ${error.message}<br>💡 <strong>حل:</strong> Worker URL چیک کریں`;
+                showToast('❌ ٹیسٹ ناکام!');
+            });
+        }
+        
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            toast.textContent = msg;
+            toast.classList.add('show');
+            setTimeout(() => toast.classList.remove('show'), 3000);
+        }
+    </script>
+</body>
+</html>
